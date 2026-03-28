@@ -1,0 +1,41 @@
+{
+  "batches": [],
+  "marketplace": [],
+  "trustScores": {},
+  "incidents": [
+    {
+      "id": "INC-1",
+      "type": "counterfeit",
+      "medicineName": "Amoxicillin 500mg",
+      "batchNumber": "AMX-2023-09",
+      "location": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "details": "Packaging inconsistencies detected. Hologram missing.",
+      "severity": "critical",
+      "timestamp": 1772941493830
+    },
+    {
+      "id": "INC-2",
+      "type": "diversion",
+      "medicineName": "Oxycodone 10mg",
+      "batchNumber": "OXY-992-11",
+      "location": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "details": "Product intended for EU market found in US supply chain.",
+      "severity": "warning",
+      "timestamp": 1772855093830
+    }
+  ],
+  "sales": [
+    { "id": "SALE-1", "medicineName": "Dolo 650", "quantity": 1200, "date": "2026-03-01", "sellerName": "City Pharma", "region": "Delhi", "category": "Analgesic" },
+    { "id": "SALE-2", "medicineName": "Dolo 650", "quantity": 800, "date": "2026-03-02", "sellerName": "Health First", "region": "Delhi", "category": "Analgesic" },
+    { "id": "SALE-3", "medicineName": "Augmentin 625", "quantity": 450, "date": "2026-03-01", "sellerName": "Metro Meds", "region": "Mumbai", "category": "Antibiotic" },
+    { "id": "SALE-4", "medicineName": "Augmentin 625", "quantity": 600, "date": "2026-03-03", "sellerName": "City Pharma", "region": "Mumbai", "category": "Antibiotic" },
+    { "id": "SALE-5", "medicineName": "Shelcal 500", "quantity": 1500, "date": "2026-03-01", "sellerName": "Wellness Pharmacy", "region": "Bangalore", "category": "Supplement" },
+    { "id": "SALE-6", "medicineName": "Shelcal 500", "quantity": 300, "date": "2026-03-04", "sellerName": "Health First", "region": "Bangalore", "category": "Supplement" }
+  ]
+}
